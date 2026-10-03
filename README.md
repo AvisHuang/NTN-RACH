@@ -8,7 +8,7 @@
 參考 https://docs.ocudu.org/tutorials/ntn/
 
 
-1.前置準備
+1. 前置準備
 
 運行 Ubuntu 22.04.1 LTS 的 PC
 
@@ -23,7 +23,17 @@ Open5GS 5G核心網
 ZeroMQ
 
 2. 安裝ZeroMQ及編譯套件
-3. 下載OCUDU原始碼
-4. CMAKE:檢查編譯套件產生編譯規則
-5. MAKE：把原始碼編譯成OCUDU程式
-6. 
+ZeroMQ為一套通訊函式庫，在程式之間傳送資料，把數位形式的無線電訊號樣本，在 gNB、模擬器和 UE 之間傳遞。
+
+4. 下載OCUDU原始碼
+5. CMAKE:檢查編譯套件產生編譯規則
+6. MAKE：把原始碼編譯成OCUDU程式
+7. 編譯Amarisoft UE所需的ZeroMQ TRX驅動
+   Amarisoft UE用來模擬User，它搜尋基地台、讀取衛星資訊、嘗試註冊並傳送資料。
+   TRX是使UE能透過ZeroMQ的形式收送訊號
+9. 選擇衛星通道模擬方式 
+10. 準備並設定gNB、UE、NTN設定檔
+11. 用Docker Compose啟動Open5GS
+12. 啟動通道模擬確認
+13. 確認UE註冊並取得ip
+14. 設定路由、使用ping iperf測試
