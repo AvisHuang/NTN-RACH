@@ -24,7 +24,8 @@ ZeroMQ
 
 2. 安裝ZeroMQ及編譯套件
 ZeroMQ為一套通訊函式庫，在程式之間傳送資料，把數位形式的無線電訊號樣本，在 gNB、模擬器和 UE 之間傳遞。
-''sudo apt-get install libzmq3-dev''
+
+'sudo apt-get install libzmq3-dev'
 
 
 4. 下載OCUDU原始碼
