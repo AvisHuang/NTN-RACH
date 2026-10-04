@@ -1,3 +1,11 @@
+# NTN-OCUDU 安裝與測試流程
+
+本筆記參考 [OCUDU NTN 官方教學](https://docs.ocudu.org/tutorials/ntn/)。
+
+## 流程圖
+
+![NTN-OCUDU 流程圖](https://github.com/user-attachments/assets/551ef100-d8f7-4fdc-80e7-f46bdcd2335d) 
+
 ## 1. 前置準備
 
 - 執行 Ubuntu 22.04.1 LTS 的 PC
