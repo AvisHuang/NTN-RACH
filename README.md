@@ -23,3 +23,32 @@ ZeroMQ 為一套通訊函式庫，可在程式之間傳送資料。在這個流�
 
 ```bash
 sudo apt-get install libzmq3-dev
+```
+
+### 3. 建置 OCUDU
+
+#### 3.1 從github clone程式碼
+```bash
+git clone https://gitlab.com/ocudu/ocudu.git
+cd ocudu
+```
+
+#### 3.2 開啟 cmake 準備編譯資料
+```bash
+mkdir build
+cd build
+cmake ../ -DENABLE_EXPORT=ON -DENABLE_ZEROMQ=ON
+make -j`nproc`
+```
+
+#### 3.3 使用make編譯程式碼
+```bash
+mkdir build
+cd build
+cmake ../ -DENABLE_EXPORT=ON -DENABLE_ZEROMQ=ON
+make -j`nproc`
+```
+
+### 4. 安裝Amarisoft UE 和 ZeroMQ TRX 驅動程式
+此為UE及通訊酷的驅動程式
+
