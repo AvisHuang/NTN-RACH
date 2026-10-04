@@ -10,7 +10,7 @@
 
 - 執行 Ubuntu 22.04.1 LTS 的 PC
 - OCUDU 26.04 或更新版本，建置時須啟用 ZeroMQ
-- 支援 NTN 的 Amarisoft UE（請確認版本符合[官方教學](https://docs.ocudu.org/tutorials/ntn/)的要求）
+- 支援 NTN 的 Amarisoft UE
 - Open5GS 5G 核心網
 - Docker 和 Docker Compose，用來啟動 Open5GS
 - ZeroMQ
