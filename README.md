@@ -49,10 +49,8 @@ cmake ../ -DENABLE_EXPORT=ON -DENABLE_ZEROMQ=ON
 
 ### 6.連接UE
 因為無法獲去arsmisoft的UE驅動程式所以改用OAI
-參考資料：(https://docs.ocudu.org/tutorials/oaiue/)
-make -j`nproc`
-```
 
-### 6. 安裝Amarisoft UE 和 ZeroMQ TRX 驅動程式
-此為UE及通訊庫的驅動程式
+參考資料：(https://docs.ocudu.org/tutorials/oaiue/)
+
+
 
