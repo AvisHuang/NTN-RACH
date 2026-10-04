@@ -1,6 +1,6 @@
 # NTN-OCUDU 安裝與測試流程
 
-本筆記參考 [OCUDU NTN 官方教學](https://docs.ocudu.org/tutorials/ntn/)。
+參考 [OCUDU NTN 官方教學](https://docs.ocudu.org/tutorials/ntn/)。
 
 ## 流程圖
 
