@@ -1,0 +1,11 @@
+1.安裝Duranta OpenAirInterface
+
+```bash
+cd ~
+git clone --branch 2026.w25 https://github.com/duranta-project/openairinterface5g.git
+```
+
+2.安裝ZEROMQ
+```bash
+
+```
