@@ -45,6 +45,11 @@ make -j`nproc`
 mkdir build
 cd build
 cmake ../ -DENABLE_EXPORT=ON -DENABLE_ZEROMQ=ON
+```
+
+### 6.連接UE
+因為無法獲去arsmisoft的UE驅動程式所以改用OAI
+參考資料：(https://docs.ocudu.org/tutorials/oaiue/)
 make -j`nproc`
 ```
 
